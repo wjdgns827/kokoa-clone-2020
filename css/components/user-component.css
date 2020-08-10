@@ -1,0 +1,26 @@
+.user-component,
+.user-component__column:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.user-componrnt__photo {
+  width: 55px;
+  height: 55px;
+  border-radius: 30%;
+  margin-right: 12px;
+}
+.user-component__name {
+  font-weight: 600;
+  font-size: 17px;
+}
+.user-component__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.user-componrnt__photo__xl {
+  width: 65px;
+  height: 65px;
+}
