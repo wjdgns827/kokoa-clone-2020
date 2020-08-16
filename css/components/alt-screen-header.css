@@ -1,7 +1,7 @@
-.screen-header {
+.alt-header {
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 10px;
@@ -11,11 +11,15 @@
   right: 0px;
 }
 
-.screen-header__title {
-  font-size: 25px;
+.alt-header__title {
+  font-size: 20px;
   font-weight: 600;
 }
 
-.screen-header__icons span {
-  margin-left: 25px;
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
 }

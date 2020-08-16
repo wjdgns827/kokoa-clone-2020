@@ -4,8 +4,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to KokoaClone!</title>
+    <title>chat/friend - KokoaClone!</title>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -23,25 +24,19 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome To KokoaClone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email.
-      </p>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="friends.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">Settings</span>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
+      </div>
     </header>
 
-    <form id="login-form" action="friends.html" method="GET">
-      <input name="user" type="email" placeholder="Email" required />
-      <input
-        name="password"
-        type="password"
-        placeholder="Password"
-        minlength="10"
-        required
-      />
-      <input type="submit" value="Log in" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <main class="main-screen"></main>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
