@@ -9,6 +9,7 @@
   top: 23px;
   left: 0px;
   right: 0px;
+  z-index: 2;
 }
 
 .screen-header__title {
@@ -18,4 +19,16 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+@keyframes screenHeaderCogIconSpin {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: screenHeaderCogIconSpin 1s linear infinite;
 }
