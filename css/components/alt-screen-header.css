@@ -9,6 +9,7 @@
   top: 23px;
   left: 0px;
   right: 0px;
+  z-index: 3;
 }
 
 .alt-header__title {
